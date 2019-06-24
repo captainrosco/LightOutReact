@@ -1,13 +1,8 @@
-import React, { Component } from "react";
+import React from "react";
+import "./Cell.css";
 
-export class Cell extends Component {
-  render() {
-    return (
-      <div>
-        <h1>cell</h1>
-      </div>
-    );
-  }
-}
+const Cell = props => {
+  return <div className={`cell ${props.toggle ? "on" : ""}`} />;
+};
 
 export default Cell;
