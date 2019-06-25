@@ -1,0 +1,12 @@
+.board {
+  max-width: 325px;
+  max-height: 325px;
+  margin: 0 auto;
+  margin-top: 125px;
+}
+
+.board-row {
+  display: flex;
+  direction: row;
+  justify-content: center;
+}
